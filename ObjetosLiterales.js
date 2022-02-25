@@ -12,7 +12,16 @@ const perro ={
         console.log("Gua, gua");
     }
 }
-
-console.log(perro)
-
-alert("hola");
+const dog= { // con ECMASCRIPT6 yano es necesario hacer esto largo, pues el lenguaje entiende de que 
+    //  se le asignara el mismo valor  nombre de la variable en el objeto
+    nombre,
+    edad,
+    raza:'Caniche',
+    ladrar(){
+        console.log("gua, gua, gua");
+    }
+}
+console.log(perro);
+perro.ladrar();
+console.log(dog);
+dog.ladrar();
