@@ -1,5 +1,7 @@
-const objUsuarios = {
+let aleatorio = Math.round(Math.random() * 100 + 5);
 
+const objUsuarios = {
+    [`id_${aleatorio}`]:"Valor aleatorio"
 }
 const usuarios = ["Jon", "Irma", "Miguel", "Kala", "Kenai"];
 

@@ -15,6 +15,7 @@ function sumar( a, b, ...c){
 
 console.log(sumar(11,2,2));
 
+
 // Operador de propagación (spread)
 const arr1 = [1,2,3,4,5]
 const arr2 = [6,7,8,9,0]
