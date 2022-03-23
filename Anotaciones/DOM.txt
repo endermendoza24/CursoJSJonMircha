@@ -1,11 +1,16 @@
-console.log("***** ELEMENTOS DEL DOCUMENTO ****");
-console.log(window.document);
-console.log(document);
-console.log(document.head);
-console.log(document.body);
-console.log(document.documentElement);
-console.log(document.doctype);
-console.log(document.charset)
+Apuntes sobre javascript DOM 22 de marzo de 2022.
+
+Nodos elementos y selectores.
+
+
+Un nopdo no es exactamente igual a una etiqueta de HTML,
+Peros si todas las etiquetas de html son nodos.
+Se pueden buscar en MDN, Node type.
+El DOM es una Api básicamente.
+
+Nodos de tipo elemento y de tipo texto son los más importantes...
+
+*** Metodos del dom ***
 
 
 // Metodos que ya no suelene usarse
@@ -17,4 +22,5 @@ console.log(document.getElementById("menu"));
 console.log(document.querySelector("menu")) // este recibe cualquier selector valido de css, si se pone clase o id se le debe de poner el # o el . respectivo
 // a nivel de rendimiento el queery selector es más lento que el getElementById
 // query selector solo trae el primer selector que se le hay especificado, si se quisieera traer todos, se debe de usar "querySelectorAll [este es el reemplazo de tagName, className y byName", también aceptnan mushcos metodos como, length, foreach etc...
-    
+
+
