@@ -24,3 +24,10 @@ console.log(document.querySelector("menu")) // este recibe cualquier selector va
 // query selector solo trae el primer selector que se le hay especificado, si se quisieera traer todos, se debe de usar "querySelectorAll [este es el reemplazo de tagName, className y byName", también aceptnan mushcos metodos como, length, foreach etc...
 
 
+
+23 de marzo de 2022
+Investigar sobre los data attributes
+
+
+// no hay problema que sea let y const, aunque es preferible tratandose del tema de DOM guardar las cosas en Const
+Tambien se pueden distinguir las variables d ela logica de las del dom anteponiendole un simbolo de dolar, es buena practica.

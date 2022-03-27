@@ -5,6 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Índice 2</title>
+    <style>
+        :root{
+            --yellow-color:#f7d71e;
+            --dark-color:#222;
+        }
+        .card{
+            display: inline-block;
+            background-color: var(--dark-color);
+            color: var(--yellow-color);
+        }
+        .card figcaption{
+            padding: 1rem;
+        }
+        .rotate-45{
+            transform: rotate(45deg);
+        }
+        .rotate-135{
+            transform: rotate(135deg);
+        }
+        .opacity-80{
+            opacity:.8;
+        }
+        .sepia{
+            filter: sepia(1);
+        }
+    </style>
 </head>
 <body>
     <h1>Indice</h1>
@@ -42,7 +68,7 @@
     </nav>
 
     <input type="text" name="nombre" placeholder="Nombre">
-    <a href="./DOM/DomFirstClass.js" class="link-dom">DOM</a>
+    <a style="background-color: #f7df1e; color: #222;" data-description="Document Objet Model" href="./DOM/DomFirstClass.js" class="link-dom">DOM</a>
 
     <section class="cards">
         <figure class="card">
@@ -77,6 +103,7 @@
     </section>
 
 
-    <script src="./DOM/DomFirstClass.js"></script>
+    <!-- <script src="./DOM/DomFirstClass.js"></script> -->
+    <script src="./DOM/estilosVariablesCssDOM.js"></script>
 </body>
 </html>

@@ -1,0 +1,4 @@
+Cuando se pasa de css a javascript se elimina el guin de en medio y se utiliza lowerCamelCase, esto debido a que el guin -- podría representar una resta en javascript, por lo tanto para evitar errores se hace esto.
+
+Por ejemplo: Si en CSS la propiedad es "background-color", a javascript va a pasar a ser: "backgroundColor".
+
